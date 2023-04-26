@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suvey form</title>
+    <link rel="stylesheet" href="link.css">
+    <style>
+       @media only screen and (max-width: 850px) {
+            body{
+                height: auto;
+                background-color:rgb(217, 32, 192);
+                align-items: center;
+                align-content: center;
+            }
+            .box{
+                width:100px;
+                height: 90px;
+            }
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="ani">SURVEY FORM</h1>
+    <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+        <!-- NAME SECTION -->
+        <fieldset>
+            <legend><h3>NAME:</h3></legend><br>
+          <section class="Name">
+              <!-- <h3>NAME:</h3><br> -->
+              <label for="First_Name">
+                  <span> First Name: </span><br><input type="text" name="First Name" class="First Name" id="First_Name"  required autofocus>
+              </label><br>
+              <label for="Last_Name">
+                  <span> Last Name: </span><br><input type="text" name="Last Name" class="Last Name" id="Last_Name" required>
+              </label><br>
+          </section><br>
+       </fieldset>
+        <!-- ADDRESS SECTION -->
+        <fieldset>
+            <legend><h3>ADDRESS:</h3></legend><br>
+        <section class="Address">
+            <label for="street">
+                <span> Street: </span><br><input type="text" name="street" class="street" id="street" required>
+            </label><br>
+            <label for="city">
+                <span> City: </span><br><input type="text" name="city" class="city" id="city" required>
+            </label><br>
+            <label for="state">
+                <span> State: </span> <br><input type="text" name="state" class="state" id="state" required>
+            </label><br>
+            <label for="pin_code">
+                <span> Pin code : </span><br><input type="number" name="pin code" class="pin code" id="pin_code" required><br>
+            </label><br>
+        </section>
+        </fieldset>
+        <!-- CONTACT SECTION -->
+        <fieldset>
+            <legend><h3>CONTACT NUMBER: </h3></span></legend><br>
+        <sectiion class="contact">
+            <label for="contact">
+                <span> Contact number: </span><br><input type="number" name="contact" id="contact" class="contact" required><br>
+            </label><br>
+        </sectiion>
+    </fieldset>
+        <!-- RATING SECTION -->
+        <fieldset><legend><h3>RATE US:</h3></legend><br>
+        <section class="rating">
+            <div class="quality">
+                <h4>Quality of products received:</h4>
+              <div class="Qua">
+                  <label for="exc">
+                      <span> Excellent :</span><input type="radio" name="quality" id="exc" required>
+                  </label>
+                  <label for="go">
+                      <span> Good :</span><input type="radio" name="quality" id="go" required>
+                  </label>
+                  <label for="b">
+                      <span> Bad :</span><input type="radio" name="quality" id="b" required><br>
+                  </label>
+               </div>
+            </div>
+            <div class="money">
+                <h4>Value for money:</h4>
+                <div class="Mon">
+                  <label for="excel">
+                      <span> Excellent : </span><input type="radio" name="money" id="excel" required>
+                  </label>
+                  <label for="goo">
+                      <span> Good : </span><input type="radio" name="money" id="goo" required>
+                  </label>
+                  <label for="ba">
+                      <span> Bad : </span><input type="radio" name="money" id="ba" required><br>
+                  </label>
+            </div>
+            </div>
+            <div class="delivery">
+                <h4>Delivery:</h4>
+                <div class="Del">
+                  <label for="excellent">
+                      <span> Excellent : </span><input type="radio" name="delivery" id="excellent" required>
+                  </label>
+                  <label for="good">
+                      <span> Good : </span><input type="radio" name="delivery" id="good" required>
+                  </label>
+                  <label for="bad">
+                      <span> Bad : </span><input type="radio" name="delivery" id="bad" required><br>
+                  </label>
+            </div>
+            </div>
+        </section>
+        </fieldset>
+
+        <!-- SUBMIT -->
+        <section class="submit">
+            <input type="submit" id="submit">
+        </section>
+    </form></label>
+</div>
+</body>
+</html>
